@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-express",
+  "version": "1.0.0",
+  "description": "A 1vs1 Tic-Tac-Toe game developed with Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-dart-sass": "^1.0.4",
+    "sass": "^1.89.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

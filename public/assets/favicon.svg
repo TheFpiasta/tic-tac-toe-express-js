@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Tic Tac Toe board -->
+  <rect x="0" y="0" width="512" height="512" fill="#f5f5f5"/>
+  
+  <!-- Board lines -->
+  <line x1="171" y1="50" x2="171" y2="462" stroke="#333" stroke-width="12"/>
+  <line x1="341" y1="50" x2="341" y2="462" stroke="#333" stroke-width="12"/>
+  <line x1="50" y1="171" x2="462" y2="171" stroke="#333" stroke-width="12"/>
+  <line x1="50" y1="341" x2="462" y2="341" stroke="#333" stroke-width="12"/>
+  
+  <!-- X mark (top left) -->
+  <path d="M85 85 L155 155 M155 85 L85 155" stroke="rgb(86, 180, 233)" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- O mark (center) -->
+  <circle cx="256" cy="256" r="50" fill="none" stroke="rgb(230, 159, 0)" stroke-width="16"/>
+  
+  <!-- X mark (bottom right) -->
+  <path d="M357 357 L427 427 M427 357 L357 427" stroke="rgb(86, 180, 233)" stroke-width="16" stroke-linecap="round"/>
+</svg>
