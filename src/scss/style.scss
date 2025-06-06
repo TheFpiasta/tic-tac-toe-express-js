@@ -107,7 +107,7 @@ button {
 
     &:not(.clicked):hover {
       cursor: pointer;
-      background-color: darken($background-color, 3%);
+      //background-color: darken($background-color, 3%);
     }
 
     &.cell-b-b {
@@ -165,13 +165,18 @@ button {
   margin: 0 auto;
 
   &.mark-x {
+    filter: invert(67%) sepia(72%) saturate(1217%) hue-rotate(173deg) brightness(96%) contrast(87%);
+    color: $color-x;
+
     path {
       fill: $color-x;
     }
   }
 
   &.mark-o {
+    filter: invert(72%) sepia(98%) saturate(1066%) hue-rotate(359deg) brightness(103%) contrast(103%);
     margin-top: 5px;
+    color: $color-o;
 
     path {
       fill: $color-o;
