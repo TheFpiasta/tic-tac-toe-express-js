@@ -85,6 +85,9 @@ class Game {
             this.gameEnd = true;
             this.#updateScore(currentPlayer);
             alert(`Player ${currentPlayer.toUpperCase()} wins!`);
+            for (let cell of this.gameBoard.getElementsByClassName('cell')) {
+                cell.classList.add('clicked');
+            }
         } else {
             this.gameBoard.classList.add(`current-player-${currentPlayer === 'x' ? 'o' : 'x'}`);
         }
