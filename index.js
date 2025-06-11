@@ -25,6 +25,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
+app.get('/rps', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'rockpaperscissors.html'));
+});
+
 // Start server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
